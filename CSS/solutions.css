@@ -41,16 +41,12 @@
     animation: rotation 1s linear infinite
 }
 @keyframes spin {
-    0% {
+    0%, 100% {
         transform: rotate(0);
     }
     90% {
         transform: rotate(315deg)
-    }
-    100% {
-        transform: rotate(0);
-    }
-    
+    }   
 }
 .ex-11-icon:hover {
     animation: spin 2s linear 
